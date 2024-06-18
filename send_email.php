@@ -17,7 +17,7 @@
             $mail->Password = $_ENV['SMTP_PASSWORD'];;
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             $mail->Port = 465;
-            $mail->setFrom($_ENV['SMTP_USERNAME'], 'JMercari Engineering Job Alert!!!');
+            $mail->setFrom($_ENV['SMTP_USERNAME'], ' Engineering Job Alert!!!');
             $mail->addAddress(''); //insert your email ID!
             $mail->isHTML(true);
             $mail->Subject = 'New hiring';

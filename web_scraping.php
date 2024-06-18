@@ -11,7 +11,7 @@ echo "hello";
 //writing function to find job
 function findJob()
 {
-    $url = 'https://careers.mercari.com/search-jobs/'; //mercari tokyo jobs
+    $url = 'https://www.naukri.com/it-jobs?src=gnbjobs_homepage_srch'; 
     $html = file_get_html($url);
     $jobs = [];
     //searching for tech roles only
